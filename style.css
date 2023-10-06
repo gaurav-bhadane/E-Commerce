@@ -90,9 +90,9 @@ body
 {
     position: absolute;
     top: 110%;
-    right: 2rem;
-    max-width: 50rem;
-    height: 4.5rem;
+    right: -110%;
+    width: 50rem;
+    height: 5rem;
     background: #fff;
     border-radius: .5rem;
     overflow: hidden;
