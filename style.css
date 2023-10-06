@@ -100,6 +100,11 @@ body
     align-items: center;
     box-shadow: var(--box-shadow);
 }
+.header .search-form.active
+{
+    right: 2rem;
+    transition: .4s linear;
+}
 .header .search-form input
 {
     height: 100%;
