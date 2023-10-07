@@ -32,6 +32,23 @@ body
 {
     background: #eee;
 }
+a.btn, input.btn
+{
+    margin-top: 1rem;
+    display: inline-block;;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+}
+a.btn:hover,input.btn:hover
+{
+    background: var(--orange);
+    color: #fff;
+}
 .header
 {
     position: fixed;
@@ -76,6 +93,7 @@ body
     font-size: 2rem;
     margin-right: .3rem;
     text-align: center;
+    cursor: pointer;
 }
 .header .icons div:hover
 {
@@ -125,4 +143,173 @@ body
 .header .search-form label:hover
 {
     color: var(--orange);
+}
+.header .shopping-cart
+{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    width: 35rem;
+    background: #fff;
+}
+.header .shopping-cart .box
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;    
+    position: relative;
+    margin: 1rem 0;
+}
+.header .shopping-cart .box img
+{
+    height: 10rem; 
+}
+.header .shopping-cart .box .fa-trash
+{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    cursor: pointer;
+    color: var(--light-color);
+    transform: translate(-50%);
+}
+.header .shopping-cart .box .fa-trash:hover
+{
+    color: var(--orange);
+}
+.header .shopping-cart .box .content h3
+{
+    color: var(--black);
+    font-size: 1.7rem; 
+    padding-bottom: 1rem;
+}
+.header .shopping-cart .box .content span
+{
+    color: var(--light-color);
+    font-size: 1.6rem; 
+}
+.header .shopping-cart .box .content .quantity
+{
+    padding-left: 1rem;
+}
+.header .shopping-cart .total
+{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--black);
+}
+.header .shopping-cart .btn
+{
+    display: block;
+    text-align: center;
+    margin: 1rem;
+}
+.header .shopping-cart.active
+{
+    right: 2rem;
+    transition: 0.4s linear;
+}
+.header .login-form
+{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 30rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    text-align: center;
+}
+.header .login-form h3
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.header .login-form .box
+{
+    width: 100%;
+    margin: 0.7rem 0;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+.header .login-form p
+{
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+    color: var(--light-color);
+}
+.header .login-form p a
+{
+    color: var(--orange);
+    text-decoration: underline;
+
+}
+.header .login-form.active
+{
+    right: 2rem;
+    transition: 0.4s linear;
+}
+
+/* Media Query */
+
+@media(max-width:991px)
+{
+    html
+    {
+        font-size: 55%;
+    }
+    .header
+    {
+        padding: 2rem;
+    }
+}
+@media(max-width:768px)
+{
+    #menu-btn
+    {
+        display: inline-block;
+    }
+    .header .search-form
+    {
+        width: 90%;
+    }
+    .header .navbar
+    {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: 0.5rem;
+        background: #fff;
+    }
+    .header .navbar.active
+    {
+        right: 2rem;
+        transition: .4s linear;
+    }
+    .header .navbar a
+    {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+}
+@media(max-width:450px)
+{
+    html
+    {
+        font-size: 50%;
+    }
 }
