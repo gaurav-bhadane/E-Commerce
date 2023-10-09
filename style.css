@@ -346,5 +346,13 @@ a.btn:hover,input.btn:hover
 }
 .home .content h3 span
 {
-    color: green;
+    color: var(--orange);
+}
+.home .content p
+{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+
 }
