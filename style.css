@@ -281,7 +281,7 @@ a.btn:hover,input.btn:hover
     }
     section
     {
-        padding: 2rem 9%;
+        padding: 2rem;
     }
 }
 @media(max-width:768px)
@@ -322,4 +322,29 @@ a.btn:hover,input.btn:hover
     {
         font-size: 50%;
     }
+}
+.home
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/bannerbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+.home .content
+{
+    text-align: center;
+    width: 60rem;
+}
+.home .content h3
+{
+    color: var(--black);
+    font-size: 3rem;
+}
+.home .content h3 span
+{
+    color: green;
 }
