@@ -34,6 +34,10 @@ body
 {
     background: #eee;
 }
+section
+{
+    padding: 2rem 9%;
+}
 a.btn, input.btn
 {
     margin-top: 1rem;
@@ -274,6 +278,10 @@ a.btn:hover,input.btn:hover
     .header
     {
         padding: 2rem;
+    }
+    section
+    {
+        padding: 2rem 9%;
     }
 }
 @media(max-width:768px)
