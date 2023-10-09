@@ -322,6 +322,10 @@ a.btn:hover,input.btn:hover
     {
         font-size: 50%;
     }
+    .heading
+    {
+        font-size: 2.5rem;
+    }
 }
 .home
 {
@@ -354,5 +358,17 @@ a.btn:hover,input.btn:hover
     font-size: 1.7rem;
     padding: 1rem 0;
     line-height: 1.8;
-
+}
+.heading
+{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.heading span
+{
+    color: var(--orange);
+    display: inline-block;
 }
