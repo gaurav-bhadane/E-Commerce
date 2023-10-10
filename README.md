@@ -1,1 +1,1 @@
-# Frontend Project of E-commerce Buying multiple things by adding them to Cart and Checkouting the Final total for paying bill
+# Frontend based E-commerce Project of Buying multiple things by adding them to Cart and Checkouting the Final total for paying Bill
