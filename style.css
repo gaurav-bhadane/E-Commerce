@@ -531,3 +531,53 @@ a.btn:hover,input.btn:hover
     line-height: 1.8;
     color: var(--light-color);
 }
+.review .review-slider
+{
+    padding: 1rem;
+}
+.review .review-slider .box
+{
+    background: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: 0.2s linear;
+}
+.review .review-slider .box p
+{
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.review .review-slider .box:hover
+{
+    outline-offset: -0rem;
+    outline: var(--outline-hover);
+}
+.review .review-slider .box img
+{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.review .review-slider .box h3
+{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.review .review-slider .box .price
+{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: 5rem 0;
+}
+.review .review-slider .box .stars i
+{
+    font-size: 1.7 rem;
+    color: var(--orange);
+    padding: 5rem 0;
+}
