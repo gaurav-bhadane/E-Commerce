@@ -581,3 +581,68 @@ a.btn:hover,input.btn:hover
     color: var(--orange);
     padding: 5rem 0;
 }
+.blogs .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(26rem, 1fr));
+    gap:1.5rem
+}
+.blogs .box-container .box
+{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.blogs .box-container .box:hover
+{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+.blogs .box-container .box img
+{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.blogs .box-container .box .content
+{
+    padding: 2rem;
+}
+.blogs .box-container .box .icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+}
+.blogs .box-container .box .icons a
+{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.blogs .box-container .box .icons a:hover
+{
+    color: var(--black);
+}
+.blogs .box-container .box .icons a i
+{
+    color: var(--orange);
+    padding-right: 0.5rem;
+}
+.blogs .box-container .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+.blogs .box-container .box p
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+}
