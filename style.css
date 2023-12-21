@@ -67,6 +67,7 @@ a.btn:hover,input.btn:hover
     padding: 2rem 9%;
     background: #fff;
     box-shadow: var(--box-shadow);
+    cursor: pointer;
 }
 .header .logo
 {
